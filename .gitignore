@@ -1,0 +1,10 @@
+/build/
+/stage/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.so
+*.a
+abi-smoke

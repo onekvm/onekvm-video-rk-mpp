@@ -1,0 +1,23 @@
+{
+  "id": "picokvm-device",
+  "name": "Rockchip MPP device backend",
+  "description": "Provides in-process HDMI capture and Rockchip MPP hardware encoding.",
+  "i18n": {
+    "default": {
+      "name": "Rockchip MPP device backend",
+      "description": "Provides in-process HDMI capture and Rockchip MPP hardware encoding."
+    },
+    "zh": {
+      "name": "Rockchip MPP 设备后端",
+      "description": "在 OneKVM 主进程内提供 HDMI 采集和 Rockchip MPP 硬件编码。"
+    }
+  },
+  "kind": "device",
+  "version": "0.1.0",
+  "capabilities": ["video", "hid", "msd", "srtp-tx-offload"],
+  "icon": {
+    "source": "lucide",
+    "name": "video"
+  },
+  "unit": "onekvm.service"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "picokvm",
+  "api_major": 1,
+  "transport": "native",
+  "driver": "rk-mpp",
+  "library": "/usr/lib/onekvm/video-backends/rk-mpp.so",
+  "capabilities": ["video", "hid", "msd", "srtp-tx-offload"],
+  "video_codecs": ["auto", "h264", "h265"],
+  "video_bitrate_kbps": {"minimum": 200, "maximum": 8000, "step": 100, "default": 4000},
+  "video_formats": [
+    {"Width": 1920, "Height": 1080, "FPS": 60, "PixelFormat": "yuyv"},
+    {"Width": 1280, "Height": 720, "FPS": 60, "PixelFormat": "yuyv"},
+    {"Width": 640, "Height": 480, "FPS": 30, "PixelFormat": "yuyv"}
+  ]
+}
